@@ -1,0 +1,24 @@
+[gd_scene format=2]
+
+[node name="Title" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="Bg" type="ColorRect" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+color = Color( 0.490196, 0.596078, 0.74902, 1 )
+
+[node name="Start" type="Button" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 388.0
+margin_top = 96.0
+margin_right = -595.0
+margin_bottom = -484.0
+rect_scale = Vector2( 5, 5 )
+text = "Start"
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2( 514, 300 )
+current = true
